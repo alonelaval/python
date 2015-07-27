@@ -63,7 +63,7 @@ class MyClass(object):
         for img in imgs:
             name =img[img.rfind("/"):len(img)] 
             img_local = PATH+name
-            if os.path.isfile(img):
+            if os.path.isfile(img_local):
                 continue 
             f = open(img_local,"wb")
             print img
@@ -122,7 +122,16 @@ if __name__=='__main__':
 
 
 
-
+# http://img.zcool.cn/community/05fb2e554a7ba800000115a836d0c0.jpg
+# http://img.zcool.cn/community/05113d554a7ba800000115a89d5ba6.jpg
+# http://img.zcool.cn/community/05df52554a7ba800000115a82b316c.jpg
+# http://img.zcool.cn/community/051693554a7bb400000115a8508398.jpg
+# http://img.zcool.cn/community/052344554a7ba900000115a870965d.jpg
+# http://img.zcool.cn/community/050974554a7ba800000115a83e7260.jpg
+# http://img.zcool.cn/community/0577e3554a7ba600000115a8a33bc3.jpg
+# http://img.zcool.cn/community/0501e6554a7ba600000115a8542417.jpg
+# http://img.zcool.cn/community/0506ec554a7ba600000115a89fd217.jpg
+# http://img.zcool.cn/community/05e23a554a7ba600000115a8346012.jpg
 
 
 
